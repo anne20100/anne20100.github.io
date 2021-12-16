@@ -1,0 +1,76 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  width: 100%;
+}
+.center {
+  text-align: center;
+}
+
+h1 {
+  background-color: firebrick;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: firebrick;
+}
+
+.entete-photo-anne {
+  float: left;
+  margin-right: 1em;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.menuhaut ul
+{
+  width: 100%;
+  margin: auto;
+  background: firebrick;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  text-decoration:underline;
+  color: white;
+}
+
+.menuhaut a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+}
+
+.menuhaut.active a {
+  border-bottom: 2px solid white;
+}
+
+table{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, tr, td{
+  border: 1px solid black;
+}

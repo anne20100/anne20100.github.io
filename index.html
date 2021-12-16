@@ -1,0 +1,65 @@
+---
+layout: default
+title: "Introduction"
+---
+
+  <div class="container">
+    <h1 class="center">
+      Apprendre à coder pour les débutants... par une débutante !
+    </h1>
+    <br />
+
+    <div class="entete">
+      <div class="entete-photo-anne">
+        <img src="/assets/images/photoanne.jpg" width="200px" class="photoanne" />
+      </div>
+      <div class="entete-description">
+        <h2>Introduction</h2>
+
+        <p>Hello ! Je m'appelle Anne !</p>
+        <p>
+          Geek de nature (et de plus en plus), j'ai toujours aimé pianoter sur
+          mon ordi, sur mon téléphone, jouer à des jeux de société...
+        </p>
+        <p>Puis j'ai rencontré mon mari qui est un développeur.</p>
+        <p>
+          Ce monde là m'a toujours paru flou et abstrait mais aussi très
+          attirant mais toujours en pensant que je n'avais pas les compétences
+          ni l'étoffe pour oser essayer...
+        </p>
+        <p>
+          Et un beau jour, je me suis dis... et si je m'amusais à essayer
+          d'apprendre du code...
+        </p>
+        <p>
+          J'ai commencé à taper sur interner "apprendre à coder gratuitement"
+          et j'étais un peu perdue.
+        </p>
+        <p>
+          Après quelques trouvailles j'ai commencé à apprendre quelques bases
+          en html mais sans trop savoir quoi faire pour m'entraîner et là mon
+          mari m'a dit :
+          <em>"Et si tu faisais un site d'une débutante qui parle aux débutants
+            sans termes trop techniques ?"</em>
+        </p>
+        <p>
+          Eureka ! Me voilà lancée... je vais vous faire quelques tuto pendant
+          que je m'auto-forme... vous serez les lecteurs de mon journal intime
+          en quelque sorte &#x1F609;
+        </p>
+      </div>
+    </div>
+
+    <h2>Au programme :</h2>
+    <ol>
+
+        {% for tutoriel in site.tutoriels %}
+        <li>
+            <a href="{{ tutoriel.url | prepend: site.baseurl }}">
+                {{ tutoriel.title }}
+            </a>
+          </li>
+        {% endfor %}
+
+    </ol>
+  </div>

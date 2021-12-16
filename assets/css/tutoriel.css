@@ -1,0 +1,15 @@
+.resumebook{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+pre>code{
+    display: block;
+    color: black;
+}
+
+code{
+    color:darkred;
+    font-weight: bold;
+}
