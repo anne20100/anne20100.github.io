@@ -45,11 +45,11 @@ Pour cela, je vous propose un petit exercice pour apprendre quelques bases pour 
 
 ## EXERICE FRIENDS
 
-Pour cet exercice, je vous propose de reproduire l'arrière d'un livre que j'affection : le livre de cuisine "FRIENDS"
+Pour cet exercice, je vous propose de reproduire l'arrière d'un livre que j'affectionne : le livre de cuisine "FRIENDS"
 
 <img class=resumebook src="/assets/images/resumefriendsbook.jpg" width="200px">
 
-Oui oui vous l'avez deviné, je suis une grande fan de Friends... Si bien que mon mari m'a offert le bouquin de cuisine spécial Friends &#128523.
+Oui oui vous l'avez deviné, je suis une grande fan de Friends... Si bien que mon mari m'a offert le bouquin de cuisine spécial Friends.
 
 Commençons par ouvrir notre éditeur de texte (VS Code pour ma part).
 
@@ -108,11 +108,14 @@ Tout d'abord, nous commençons par la balise `<div></div>` qui détermine un "bl
 J'ai donné une `class` à la balise pour faciliter la mise en page après mais nous y reviendrons plus tard...
 
 Maintenant, nous allons mettre nos images dans ce block `div` :
-Les balises `<img>`sont des balises qui n'ont pas besoin de balise fermante.
-Le terme `id=` permet comme `class`de donner un nom pour la mise en page future.
-Le terme `src=`permet de faire le lien entre notre code et là où est enregistrée notre image.
+Les balises `<img>` sont des balises qui n'ont pas besoin de balise fermante.
+Le terme `id=` permet comme `class` de donner un nom pour la mise en page future.
+Le terme `src=` permet de faire le lien entre notre code et là où est enregistrée notre image.
 
-Pour aller chercher les images, je vous conseille de cliquer droit sur l'image, pour aller dans les paramètres et copier/coller le lien (vérifiez bien que le lien soit complet)
+Pour aller chercher les images:
+Je vous conseille de cliquer droit sur l'image
+Aller dans les paramètres
+Copier/coller le lien (vérifiez bien que le lien soit complet)
 
 ***Attention : tous vos fichiers et images doivent être dans un même dossier côte à côte, sinon le lien ne se fera pas bien.***
 
@@ -166,8 +169,100 @@ Voici ce que ça donne :
 </div>
 ```
 
-Voilà pour la partie HTML, RDV sur la page <a href="/Users/anne/Desktop/site-formation/css.html">CSS</a> pour la mise en forme de notre page FRIENDS.
+Voilà pour la partie HTML.
+RDV sur la page <a href="/Users/anne/Desktop/site-formation/css.html">CSS</a> pour les bases CSS et la mise en forme de notre page FRIENDS.
 
 Voici l'aperçu :
 
-![apercufriends.jpeg](/assets/images/apercufriends.jpeg)
+![apercufriends](/assets/images/apercufriends.jpeg)
+
+
+## Autres bases HTML :
+
+**Faire un tableau** :
+
+Pour faire un tableau, nous allons avoir besoin de plusieurs balises : 
+
+`<table></table>` balise de base pour notre tableau
+`<thead></thead>` pour notre première ligne avec les titres
+`<th><th>` pour la ligne de titre
+`<tbody></tbody>` comme pour le reste de notre site, pour le "corps du tableau", c'est à dire les autres lignes de notre tableau
+`<tr><tr>` pour chaque ligne
+`<td></td>` pour chaque colonne
+`<th><th>` pour la ligne de titre
+
+Voici ce que ça donne pour le tableau suivant : (allé soyons fou, restons dans du Friends)
+
+<table>
+    <thead>
+        <tr>
+        <td>NOM</td>
+        <td>PRENOM</td>
+        </tr>
+    </thead>    
+    <tbody>
+        <tr>
+            <td>GHELLER</td>
+            <td>Monica</td>
+        </tr>
+        <tr>
+            <td>GHELLER</td> 
+            <td>Ross</td>
+        </tr>
+        <tr>
+            <td>GREEN</td>
+            <td>Rachel</td>
+        </tr>
+        <tr>
+            <td>BING</td>
+            <td>Chandler</td>
+        </tr>
+        <tr>
+            <td>BUFFEY</td>
+            <td>Phoebe</td>
+        </tr>
+            <td>TRIBBIANI</td>
+            <td>Joey</td>
+        </tr>
+    </tbody>
+</table>
+
+Maintenant, je vous montre le code que j'ai fait pour obtenir ce résultat (je vous montrerai la partie mise en forme dans CSS):
+
+```
+<table>
+    <thead>
+        <tr>
+        <td>NOM</td>
+        <td>PRENOM</td>
+        </tr>
+    </thead>    
+    <tbody>
+        <tr>
+            <td>GHELLER</td>
+            <td>Monica</td>
+        </tr>
+        <tr>
+            <td>GHELLER</td> 
+            <td>Ross</td>
+        </tr>
+        <tr>
+            <td>GREEN</td>
+            <td>Rachel</td>
+        </tr>
+        <tr>
+            <td>BING</td>
+            <td>Chandler</td>
+        </tr>
+        <tr>
+            <td>BUFFEY</td>
+            <td>Phoebe</td>
+        </tr>
+            <td>TRIBBIANI</td>
+            <td>Joey</td>
+        </tr>
+    </tbody>
+</table>
+```
+
+
