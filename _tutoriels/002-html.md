@@ -221,6 +221,7 @@ Voici ce que ça donne pour le tableau suivant : (allé soyons fou, restons dans
             <td>BUFFEY</td>
             <td>Phoebe</td>
         </tr>
+        <tr>
             <td>TRIBBIANI</td>
             <td>Joey</td>
         </tr>
@@ -265,4 +266,4 @@ Maintenant, je vous montre le code que j'ai fait pour obtenir ce résultat (je v
 </table>
 ```
 
-
+[Testez-vous avec le Quizz HTML](/questionnaires/002.html)
