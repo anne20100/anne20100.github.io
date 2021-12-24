@@ -2,7 +2,7 @@
 layout: quizz
 title: "QUIZZ HTML"
 ---
-<div class="container">
+<div class="containerquizz">
 
   <div id="quiz">
 
@@ -48,8 +48,8 @@ class Question {
 }
 
 let questions = [
-  new Question("Quel est le type de balise pour faire un paragraphe ?", ["Unique", "Paire", "Triple", "Quadruple"], "Paire"),
-  new Question("Pour créer notre fichier HTML, que devons-nous mettre en début de page ?", ["&lt;css&gt; &lt;mega&gt; &lt;link&gt; &lt;h1&gt;", "&lt;html&gt; &lt;head&gt;&lt;/head&gt; &lt;meta&gt; &lt;link&gt; &lt;title&gt;&lt;/title&gt;", "&lt;html&gt; &lt;head&gt;&lt;/head&gt;", "&lt;div&gt; &lt;friends&gt; &lt;tupeuxlefaire&gt; &lt;j'aimelesbalises&gt;"], "&lt;html&gt; &lt;head&gt;&lt;/head&gt; &lt;meta&gt; &lt;link&gt; &lt;title&gt;&lt;/title&gt;"),
+  new Question("Afin de faire un nouveau paragraphe, quelle(s) balise(s) faut-il utiliser ?", ["&lt;p&gt; &lt;/p&gt;", "&ltp/&gt;", "&lt;paragraphe&gt;", "&ltbr/&gt;"], "&lt;p&gt; &lt;/p&gt;"),
+  new Question("Pour créer notre fichier HTML, que devons-nous mettre en début de page ?", ["&lt;css&gt; &lt;meta&gt; &lt;link&gt;", "&lt;html&gt; &lt;head&gt;&lt;/head&gt; &lt;meta&gt; &lt;link&gt; &lt;title&gt;&lt;/title&gt;", "&lt;html&gt; &lt;head&gt;&lt;/head&gt; &lt;img&gt;", "&lt;div&gt; &lt;friends&gt; &lt;tupeuxlefaire&gt; &lt;j'aimelesbalises&gt;"], "&lt;html&gt; &lt;head&gt;&lt;/head&gt; &lt;meta&gt; &lt;link&gt; &lt;title&gt;&lt;/title&gt;"),
   new Question("Quel titre sera le plus petit ?", ["h1","h2", "h3", "h4"], "h4"),
   new Question("Dans un tableau, quelle balise représente la colonne ?", ["&lt;tp&gt","&lt;tr&gt", "&lt;td&gt", "&lt;tq&gt"], "&lt;tr&gt")
 ];

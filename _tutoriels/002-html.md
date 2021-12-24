@@ -265,5 +265,6 @@ Maintenant, je vous montre le code que j'ai fait pour obtenir ce résultat (je v
     </tbody>
 </table>
 ```
-
-[Testez-vous avec le Quizz HTML](/quizz/002.html)
+<div class="lienquizz">
+<button class=buttonlink onclick="window.location.href = '/quizz/002.html';">Testez-vous avec le Quizz HTML</button>
+</div>
