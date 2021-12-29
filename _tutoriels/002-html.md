@@ -57,7 +57,6 @@ Créez un fichier _"friends.html"_ et commençons !
 
 ***Info importante*** : lorsque vous voudrez voir le résultat sur le navigateur, voici la manipulation :
 
-Maintenant, pour voir le résultat :
 - Ouvrez votre navigateur web (chrome, safari, mozilla,...) 
 - Cliquez sur fichier - ouvrir un fichier
 - Choissez le fichier : _friends.html_
@@ -119,7 +118,8 @@ Copier/coller le lien (vérifiez bien que le lien soit complet)
 
 ***Attention : tous vos fichiers et images doivent être dans un même dossier côte à côte, sinon le lien ne se fera pas bien.***
 
-Et enfin, j'ai paramétré les tailles de chaque image en intégrant `width="..px"` et `height="..px"`
+Et enfin, j'ai paramétré les tailles de chaque image en intégrant `width="..px"` et `height="..px"`.
+
 Là, pour être honnête, je vous laisse tester les tailles ... je tâtonne donc c'est en essayant que je vois le rendu...
 
 Voici donc le rendu que vous devez avoir :
@@ -168,9 +168,6 @@ Voici ce que ça donne :
         <p>Sublimé par de nombreuses photographies en couleur, <em>Friends : Le livre de cuisine officiel</em> est à la fois un recueil de créations gourmandes et un hommage savoureux à l'unde des séries télévisées les plus emblématiques de tous les temps.</p>
 </div>
 ```
-
-Voilà pour la partie HTML.
-RDV sur la page <a href="/Users/anne/Desktop/site-formation/css.html">CSS</a> pour les bases CSS et la mise en forme de notre page FRIENDS.
 
 Voici l'aperçu :
 
@@ -265,6 +262,12 @@ Maintenant, je vous montre le code que j'ai fait pour obtenir ce résultat (je v
     </tbody>
 </table>
 ```
+
+Voilà pour la partie HTML.
+RDV sur la page <a href="/Users/anne/Desktop/site-formation/css.html">CSS</a> pour les bases CSS et la mise en forme de notre page FRIENDS.
+
+**Je vous invite maintenant à vous tester avec le QUIZZ HTML :**
+
 <div class="lienquizz">
 <button class=buttonlink onclick="window.location.href = '/quizz/002.html';">Testez-vous avec le Quizz HTML</button>
 </div>

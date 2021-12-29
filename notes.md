@@ -7,11 +7,9 @@ dans un terminal
 
 
 ## liste choses à faire :
-- noter les choses sur lesquelles je bug :
-    * tableau en md
-    * 
-- tuto CSS (en cours)
-- expliquer dans "installer un éditeur" comment créer un dossier/fichier (en cours)
+- formulaire de suggestions et commentaires
+- formation Javascript
+- perfectionnement html/css
 
 ## pour aller sur site jekyll :
 - pwd                      

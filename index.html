@@ -60,4 +60,29 @@ title: "Introduction"
         {% endfor %}
 
     </ol>
+
+    <div class="formulaire">
+  
+    <form method="post" action="traitement.php">
+
+      <h4>Pour toute suggestion ou commentaire, je vous invite à remplir le formulaire suivant <em>(oui oui, nous verrons aussi comment faire ça en code) :</em></h4>
+  
+      <p>
+        <label for="name">Votre Prénom/NOM :</label> 
+        <input type="text" name="name" id="name" placeholder="Prénom NOM" size="20" />
+      </p>
+      <p>
+        <label for="mail">Votre adresse mail :</label> 
+        <input type="text" name="mail" id="mail" placeholder=".....@......" size="20" />
+      </p>
+        <p>
+        <label for="commentaires">Vos suggestions/commentaires :</label><br/>
+        <textarea type="text" name="commentaires" id="commentaires"></textarea>
+      </p>   
+      </p>
+  
+    </form>
+
+  </div>
+
   </div>

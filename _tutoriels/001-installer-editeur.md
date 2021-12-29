@@ -7,8 +7,6 @@ Commençons par le commencement : pour coder, il va vous falloir un "éditeur de
 
 Il s'agit d'un logiciel qui va vous servir à mettre en forme votre site ou appli par exemple, pour pouvoir ensuite le mettre dans un navigateur web (Safari, Chrome, Mozzilla)
   
-  
-<br/>
 **Voici les éditeurs de texte que vous pouvez utiliser :**
 - [VS Code](https://code.visualstudio.com) que mon mari m'a conseillé <img src="/assets/images/vscode.jpg" width="60px">
 
@@ -25,10 +23,11 @@ Je vais donc vous expliquer les bases du logiciel pour celui-ci car je ne connai
 
 Pour débuter, parlons des différents boutons que nous trouvons sur la barre latérale gauche : 
 
-- [Le bouton Explorateur](/assets/images/boutonexplorateur.png) sert à ouvrir la partie qui nous intéresse pour transférer nos fichiers à coder de notre ordi sur notre éditeur.
+- Le bouton Explorateur ![Le bouton Explorateur](/assets/images/boutonexplorateur.png) sert à ouvrir la partie qui nous intéresse pour transférer nos fichiers à coder de notre ordi sur notre éditeur.
 
-- [Le bouton Open Folder](/assets/images/openfolder.png) va nous permettre d'insérer notre dossier à coder, de notre PC à notre éditeur.
+- Le bouton Open Folder ![Le bouton Open Folder](/assets/images/openfolder.png) va nous permettre d'insérer notre dossier à coder, de notre PC à notre éditeur.
 
+- Le bouton Rechercher ![Le bouton Rechercher](/assets/images/loupe.png) permet d'aller rechercher dans les dossier un élément.
 
-
+- Le bouton Extensions ![Le bouton Extensions](/assets/images/extensions.png) sert à télécharger dans VS Code différents outils comme l'aperçu en direct de ce que votre code rend en mode "navigateur".
 

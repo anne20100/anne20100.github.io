@@ -11,13 +11,14 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 0;
-  margin: 0;
+  padding: auto;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .container {
   max-width: 1080px;
-  margin: 0 auto;
+  margin: auto;
   width: 100%;
 }
 .center {
@@ -32,11 +33,18 @@ h1 {
 
 h2 {
   color: firebrick;
+  margin-top: 3em;
 }
 
 h3
 {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+h4{
+  color: firebrick;
+  text-align: center;
+  margin-top: 5px;
 }
 
 .entete-photo-anne {
@@ -78,4 +86,17 @@ table{
 
 th, tr, td{
   border: 1px solid black;
+}
+
+form{
+  display: block;
+  border: 5px solid firebrick;
+  text-align: justify;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+textarea{
+  width: 500px;
+  height: 100px
 }
