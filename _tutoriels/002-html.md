@@ -47,7 +47,7 @@ Pour cela, je vous propose un petit exercice pour apprendre quelques bases pour 
 
 Pour cet exercice, je vous propose de reproduire l'arrière d'un livre que j'affectionne : le livre de cuisine "FRIENDS"
 
-<img class=resumebook src="/assets/images/resumefriendsbook.jpg" width="200px">
+<img id="resumebook" src="/assets/images/resumefriendsbook.jpg" width="200px">
 
 Oui oui vous l'avez deviné, je suis une grande fan de Friends... Si bien que mon mari m'a offert le bouquin de cuisine spécial Friends.
 
