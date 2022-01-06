@@ -6,3 +6,5 @@ collections:
     output: true
   quizz:
     output: true
+  friends:
+    output: true

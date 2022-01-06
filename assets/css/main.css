@@ -9,23 +9,17 @@ html {
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: block;
+  max-width: 1080px;
+  width: 100%;
   padding: auto;
   margin: auto;
   margin-bottom: 30px;
 }
 
-em{
-  font-style: italic;
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  max-width: 1080px;
-  margin: 0 auto;
-  width: 100%;
-}
 .center {
   text-align: center;
 }
@@ -41,15 +35,18 @@ h2 {
   margin-top: 3em;
 }
 
-h3
-{
+h3 {
   text-decoration: underline;
 }
 
-h4{
+h4 {
   color: firebrick;
   text-align: center;
   margin-top: 5px;
+}
+
+em {
+  font-style: italic;
 }
 
 .entete-photo-anne {
@@ -60,8 +57,10 @@ h4{
   border: 1px solid #ccc;
 }
 
-.menuhaut
-{
+.menuhaut {
+  display: flex;
+  flex: wrap;
+  flex-direction: row;
   justify-content: space-between;
   width: 100%;
   margin: auto;
@@ -69,10 +68,10 @@ h4{
   list-style-type: none;
   text-align: center;
   text-decoration:underline;
-  color: white;
+  color: white; 
 }
 
-.menuhaut a{
+.menuhaut a {
   text-decoration: none;
   color: white;
   padding: 10px 0px;
@@ -82,16 +81,16 @@ h4{
   border-bottom: 2px solid white;
 }
 
-table{
+table {
   border: 1px solid black;
   border-collapse: collapse;
 }
 
-th, tr, td{
+th, tr, td {
   border: 1px solid black;
 }
 
-form{
+form {
   display: block;
   border: 5px solid firebrick;
   text-align: justify;
@@ -99,11 +98,7 @@ form{
   margin-top: 30px;
 }
 
-textarea{
+textarea {
   width: 500px;
   height: 100px
-}
-
-#resumebook{
-  align-items: center;
 }

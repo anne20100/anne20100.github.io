@@ -7,9 +7,11 @@ dans un terminal
 
 
 ## liste choses à faire :
-- formulaire de suggestions et commentaires
 - formation Javascript
 - perfectionnement html/css
+- flex : 
+    - debugger image resumer book pas centrée
+    - bug tableaux
 
 ## pour aller sur site jekyll :
 - pwd                      
