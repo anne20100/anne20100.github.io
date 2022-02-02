@@ -1,0 +1,16 @@
+.title-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    background: linear-gradient(to left top, orange, chocolate);
+}
+
+.lpa-title {
+    color: white;
+
+}
+
+.lpa-logo {
+    width: 200px;
+}

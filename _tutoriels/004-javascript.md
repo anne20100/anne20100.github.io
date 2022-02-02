@@ -1,5 +1,0 @@
----
-layout: tutoriel
-title: "JAVASCRIPT"
----
-

@@ -1,0 +1,26 @@
+.lpa-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lpa-articles > ul {
+    list-style-type: none;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    color: chocolate;
+
+}
+
+.photo {
+    width: 150px;
+}
+
+.acheter {
+    background-color: chocolate;
+    color: white;
+}
+
