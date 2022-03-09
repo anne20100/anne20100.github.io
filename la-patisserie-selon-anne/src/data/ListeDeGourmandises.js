@@ -19,7 +19,7 @@ export const ListeDeGourmandises = [
     quantity: 6,
     category: 'Pâtisserie',
     price: 10,
-    photo: <img src={caneles} alt='caneles' className='photo'/>
+    photo: caneles
 },
 {
     name: 'Madeleines',
@@ -27,7 +27,7 @@ export const ListeDeGourmandises = [
     quantity: 6,
     category: 'Pâtisserie',
     price: 10,
-    photo: <img src={madeleines} alt='madeleines' className='photo'/>
+    photo: madeleines
 },
 {
     name: 'Financiers',
@@ -35,7 +35,7 @@ export const ListeDeGourmandises = [
     quantity: 6,
     category: 'Pâtisserie',
     price: 8,
-    photos: <img src={financiers} alt='financiers' className='photo'/>
+    photo: financiers
 },
 {
     name: 'Brioche nature',
@@ -43,7 +43,7 @@ export const ListeDeGourmandises = [
     quantity: 2,
     category: 'Viennoiserie',
     price: 30,
-    photo: <img src={briochesNatures} alt='brioches natures' className='photo'/>
+    photo: briochesNatures
 },
 {
     name: 'Pains au lait',
@@ -51,7 +51,7 @@ export const ListeDeGourmandises = [
     quantity: 10,
     category: 'Viennoiserie',
     price: 15,
-    photo: <img src={painsAuLait} alt='pains' className='photo'/>
+    photo: painsAuLait
 },
 {
     name: 'Chocolatines',
@@ -59,7 +59,7 @@ export const ListeDeGourmandises = [
     quantity: 10,
     category: 'Viennoiserie',
     price: 15,
-    photo: <img src={chocolatines} alt='chocolatines' className='photo'/>
+    photo: chocolatines
 },
 {
     name: 'Croissants',
@@ -67,15 +67,15 @@ export const ListeDeGourmandises = [
     quantity: 10,
     category: 'Viennoiserie',
     price: 8,
-    photo: <img src={croissants} alt='croissants' className='photo'/>
+    photo: croissants
 },
 {
-    name: 'Tarte aux Fraises pour 6 personnes',
+    name: 'Tarte aux Fraises',
     id: '5p',
-    quantity: 1,
+    quantity: 6,
     category: 'Pâtisserie',
     price: 15,
-    photo: <img src={tarteFraise} alt='fraise' className='photo'/>
+    photo: tarteFraise
 },
 {
     name: 'Brioche des Rois',
@@ -83,7 +83,7 @@ export const ListeDeGourmandises = [
     quantity: 1,
     category: 'Viennoiserie',
     price: 15,
-    photo: <img src={briocheDesRois} alt='brioche rois' className='photo'/>
+    photo: briocheDesRois
 },
 {
     name: 'Galette des Rois',
@@ -91,15 +91,15 @@ export const ListeDeGourmandises = [
     quantity: 1,
     category: 'Pâtisserie',
     price: 15,
-    photo: <img src={galetteDesRois} alt='galette' className='photo'/>
+    photo: galetteDesRois
 },
 {
-    name: 'Tarte aux Citrons pour 6 personnes',
+    name: 'Tarte aux Citrons',
     id: '7p',
-    quantity: 1,
+    quantity: 6,
     category: 'Pâtisserie',
     price: 15,
-    photo: <img src={tarteCitron} alt='citron' className='photo'/>
+    photo: tarteCitron
 },
 {
     name: 'Babka Chocolat',
@@ -107,6 +107,6 @@ export const ListeDeGourmandises = [
     quantity: 6,
     category: 'Pâtisserie',
     price: 12,
-    photo: <img src={babka} alt='babka' className='photo'/>
+    photo: babka
 },
 ]
